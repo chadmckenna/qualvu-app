@@ -15,33 +15,33 @@ In this assessment, we will only expect you to use Rails 3.2 connected to Sqlite
 == Setup
 Submit a pull request for this repository, clone it, and pull it down to your machine.
 If you're on OS X, make sure you're running the correct version of ruby
-```
-$ ruby -v
-ruby 1.9.3p448 (2013-06-27 revision 41675) [x86_64-darwin12.4.0]
-```
+   ```
+   $ ruby -v
+   ruby 1.9.3p448 (2013-06-27 revision 41675) [x86_64-darwin12.4.0]
+   ```
 If ruby isn't installed, you can install it from here: https://www.ruby-lang.org/en/downloads/.
 Make sure you download version 1.9.3. If you already have ruby installed but not the correct version, you can use RVM (https://rvm.io/rvm/install) to manage multiple versions of ruby on your machine.
 Once ruby is installed, check to see if ruby gems is installed:
-```
-$ gem -v
-1.8.25
-```
+  ```
+  $ gem -v
+  1.8.25
+  ```
 If ruby gems is not installed, you can download it from here: http://rubygems.org/pages/download.
 Once ruby gems is installed, you'll want to make sure bundler is installed:
-```
-$ bundle -v
-Bundler version 1.3.5
-```
+  ```
+  $ bundle -v
+  Bundler version 1.3.5
+  ```
 If it not, then download the gem through ruby gems:
-```
-$ gem install bundler
-```
+  ```
+  $ gem install bundler
+  ```
 Once bundler is installed, you can cd into the root of your cloned git repository and run:
-```
-$ bundle install
-```
+  ```
+  $ bundle install
+  ```
 Now everything is setup! You can now run:
-```
-rails server
-```
+  ```
+  rails server
+  ```
 And your app should be available at http://localhost:3000
