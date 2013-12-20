@@ -36,9 +36,9 @@ And your app should be available at http://localhost:3000
 
 == Todo
 * App ideas:
- * Todo app
- * Twitter clone
- * Messaging board
+  * Todo app
+  * Twitter clone
+  * Messaging board
 
 * Seed data
 * Data migrations
