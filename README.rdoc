@@ -33,3 +33,14 @@ Once bundler is installed, you can cd into the root of your cloned git repositor
 Now everything is setup! You can now run:
   rails server
 And your app should be available at http://localhost:3000
+
+== Todo
+* App ideas:
+ * Todo app
+ * Twitter clone
+ * Messaging board
+
+* Seed data
+* Data migrations
+* rspec test
+* Models
